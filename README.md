@@ -10,6 +10,7 @@ https://support.magento.com/hc/en-us/articles/360005484154-Create-a-patch-for-a-
 
 * Add this into your composer json: 
 
+```
 "extra": {
         "magento-force": "override",
         "composer-exit-on-patch-failure": true,
@@ -21,6 +22,7 @@ https://support.magento.com/hc/en-us/articles/360005484154-Create-a-patch-for-a-
                 "Elasticsearch fix for 2.3.2": "patches/composer/elastic-elasticsuite-2-3-2.diff"
             }
         }
-    }
-    
+}
+```
+
 * And run composer update
